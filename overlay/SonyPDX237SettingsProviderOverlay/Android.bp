@@ -4,6 +4,7 @@
 //
 
 runtime_resource_overlay {
-    name: "SonyPDX234TelephonyRes",
+    name: "SonyPDX237SettingsProviderOverlay",
     product_specific: true,
 }
+

@@ -136,7 +136,7 @@ BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(strip $(shell cat $(KERNE
 BOARD_USES_METADATA_PARTITION := true
 
 # OTA
-TARGET_OTA_ASSERT_DEVICE := pdx234
+TARGET_OTA_ASSERT_DEVICE := pdx237
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 100663296
@@ -242,4 +242,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # inherit from the proprietary version
--include vendor/sony/pdx234/BoardConfigVendor.mk
+-include vendor/sony/pdx237/BoardConfigVendor.mk

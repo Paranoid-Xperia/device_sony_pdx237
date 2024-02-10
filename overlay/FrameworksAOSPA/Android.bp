@@ -5,6 +5,6 @@
 //
 
 runtime_resource_overlay {
-    name: "PDX234FrameworksAOSPA",
+    name: "PDX237FrameworksAOSPA",
     product_specific: true,
 }
